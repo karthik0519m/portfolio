@@ -254,3 +254,78 @@ span{
     font-size: 12px;
     color: white;
 }
+@media (max-width: 1200px) {
+    .header {
+      padding: 20px 5%;
+    }
+    .home {
+      gap: 5em;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .header {
+      padding: 15px 5%;
+    }
+    .home {
+      flex-direction: column;
+      gap: 2em;
+    }
+    .img-box img {
+      width: 300px;
+    }
+    .about {
+      flex-direction: column;
+      gap: 2em;
+    }
+    .about-img img {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px 5%;
+    }
+    .home-content h1 {
+      font-size: 30px;
+    }
+    .home-content h3 {
+      font-size: 25px;
+    }
+    .btn-box {
+      flex-direction: column;
+      gap: 1em;
+    }
+    .about-content h2 {
+      font-size: 25px;
+    }
+    .about-content h3 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      padding: 5px 5%;
+    }
+    .home-content h1 {
+      font-size: 25px;
+    }
+    .home-content h3 {
+      font-size: 20px;
+    }
+    .btn-box {
+      gap: 0.5em;
+    }
+    .about-content h2 {
+      font-size: 20px;
+    }
+    .about-content h3 {
+      font-size: 25px;
+    }
+    .footer {
+      padding: 10px 0;
+    }
+  }
+  
